@@ -10,11 +10,11 @@ function Hero() {
           Grow with data.
         </h1>
         <div className="flex ">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold">
+          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
             Fast, flexible financing for
           </p>
           <ReactTyped
-            className="md:text-5xl sm:text-4xl text-xl font-bold pl-2"
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
             strings={["BTB", "BTC", "SASS"]}
             typeSpeed={120}
             backSpeed={140}
@@ -25,6 +25,9 @@ function Hero() {
           Monitor your data analytics to incrase revenue for BTB, BTC, & SASS
           platforms.
         </p>
+        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium py-2 my-6 mx-auto px-3 text-black">
+          Get Started
+        </button>
       </div>
     </div>
   );
