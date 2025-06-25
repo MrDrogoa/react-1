@@ -20,11 +20,11 @@ const Newsletter = () => {
             <button className="bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 py-3 my-6 px-6 text-black">
               Notify Me
             </button>
-            <p>
-              We are about the protection of your data. Read our{" "}
-              <span className="text-[#00df9a]">Privacy Policy.</span>
-            </p>
           </div>
+          <p>
+            We are about the protection of your data. Read our{" "}
+            <span className="text-[#00df9a]">Privacy Policy.</span>
+          </p>
         </div>
       </div>
     </div>
